@@ -4,7 +4,7 @@ import scala.annotation._
 
 object RussianStemmer {
   private final val vowels = 
-    List('а','е','и','о','у','ы','э','ю','я')
+    HashSet('а','е','и','о','у','ы','э','ю','я')
   
   // must follow а или я
   private final val perfectiveGerund1 = 
