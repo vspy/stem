@@ -1,5 +1,5 @@
 package com.syndicate42.stem
-
+import scala.collection.immutable.HashSet
 import scala.annotation._
 
 object RussianStemmer {
